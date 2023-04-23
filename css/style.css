@@ -1,0 +1,74 @@
+body{
+    background-color: rgba(232, 201, 158, 0.162);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    vertical-align: left;
+    display: inline-block;
+    background-image: url("../images/R.jpeg");
+    background-position: 600px;
+    color:white ;
+    text-size-adjust: 3em;
+    background-size: cover;
+  }
+  hr{
+    color: rgb(180, 205, 101);
+    width: 10%;
+    border-style:none;      
+    border-top-style:dotted;
+    border-width:5px;
+  }
+  img{
+    width: 150px;
+    animation-name: slide;
+  }
+  h1{
+    color :#66BFBF;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+ h3{
+    color :#66BFBF;
+    
+ }
+ .circle {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+.circle:hover {
+  animation-name: rotate;
+  animation-duration: 100s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(135228786295629837566deg);
+  }
+}
+.topbar { display:inline-block;
+  position:relative;
+  left:0;
+  padding-top: 0px ;
+  
+}
+.contact{
+  margin: 0px 10px 0px 1200px;
+}
+table{border-width: 0px;
+-webkit-border-horizontal-spacing: 50px;
+-webkit-border-vertical-spacing: 0px;
+}
+.table2{
+  margin:auto;
+}
+ul{
+  list-style: none;
+}
+.fight{
+  width: 500px;
+}
